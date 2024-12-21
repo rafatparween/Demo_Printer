@@ -689,6 +689,10 @@ video {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -889,9 +893,6 @@ video {
 }
 .mt-\[-3px\] {
   margin-top: -3px;
-}
-.mt-\[-43px\] {
-  margin-top: -43px;
 }
 .mt-\[-50px\] {
   margin-top: -50px;
@@ -1126,6 +1127,9 @@ video {
 }
 .h-screen {
   height: 100vh;
+}
+.h-20 {
+  height: 5rem;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -1467,6 +1471,11 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .overflow-hidden {
   overflow: hidden;
@@ -2816,8 +2825,16 @@ body {
     margin-top: -190px;
   }
 
+  .xl\:mt-\[-92px\] {
+    margin-top: -92px;
+  }
+
   .xl\:mt-\[116px\] {
     margin-top: 116px;
+  }
+
+  .xl\:mt-\[137px\] {
+    margin-top: 137px;
   }
 
   .xl\:mt-\[165px\] {
@@ -2834,14 +2851,6 @@ body {
 
   .xl\:mt-\[86px\] {
     margin-top: 86px;
-  }
-
-  .xl\:mt-\[137px\] {
-    margin-top: 137px;
-  }
-
-  .xl\:mt-\[-92px\] {
-    margin-top: -92px;
   }
 
   .xl\:w-\[1414px\] {
@@ -3048,6 +3057,10 @@ body {
     margin-top: -283px;
   }
 
+  .\32xl\:mt-\[-43px\] {
+    margin-top: -43px;
+  }
+
   .\32xl\:mt-\[-46px\] {
     margin-top: -46px;
   }
@@ -3082,10 +3095,6 @@ body {
 
   .\32xl\:mt-\[9px\] {
     margin-top: 9px;
-  }
-
-  .\32xl\:mt-\[-43px\] {
-    margin-top: -43px;
   }
 
   .\32xl\:w-\[1431px\] {

@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/services/Pages/page": "app/services/Pages/page.js",
-  "/services/Pages/install/page": "app/services/Pages/install/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }
