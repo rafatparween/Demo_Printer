@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "123techprint.com",
-  description: "123techprint.com",
+  title: "printeasysolution",
+  description: "printeasysolution",
 };
 
 export default function RootLayout({ children }) {
