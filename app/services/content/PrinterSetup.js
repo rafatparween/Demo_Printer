@@ -16,7 +16,7 @@ const PrinterSetup = () => {
     <>
       <div className="printer-setup">
         <div className="text-content ">
-          <h1>123 PRINTER SETUP</h1>
+          <h1>123 EASY PRINTER SETUP INSTALLATION</h1>
           <ul>
             <li>Make sure your printer is powered on</li>
             <li className='select'>Click Printer Setup for step by step guidance on how to setup, configure and register your printer.</li>

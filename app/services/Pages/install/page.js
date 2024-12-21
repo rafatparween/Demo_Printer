@@ -281,13 +281,13 @@ function Printersearch() {
                 <div className="flex items-center space-x-3">
                   <span className="text-[35px] w-[41px] h-[58px]">1.</span>
                   <p className="text-[34px] whitespace-nowrap">
-                    Make sure that your printer is powered on
+                    Make sure that your Printer is Powered on
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-[34px] w-[50px] h-[40px] mt-[-26px]">2.</span>
                   <p className="text-[34px] whitespace-nowrap 2xl:ml-[5px] 2xl:mt-[9px] mb-[23px]">
-                    Click Start Printer Installation to complete your printer setup
+                    Click Start Printer Installation to Complete your Printer Setup
                   </p>
                 </div>
                 <button

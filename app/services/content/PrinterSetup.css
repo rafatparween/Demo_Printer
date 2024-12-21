@@ -18,7 +18,8 @@ div {
     height: 450px;
     overflow: hidden;
     flex-direction: column;
-    margin-top: -13px;
+    margin-top: 13px;
+    font-weight: bold;
 }
 
 .text-content {

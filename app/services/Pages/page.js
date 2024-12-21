@@ -358,13 +358,13 @@ function Home() {
           </div>
 
           <div className=" inset-0 opacity-80"></div>
-          <div className="relative z-10 text-white  2xl:ml-[-825px] xl:ml-[-567px] 2xl:mt-[164px] xl:mt-[137px]  ">
-            <h1 className="text-4xl font-hp-simplified text-[44px] xl:text-[50px] 2xl:text-[56px] xl:ml-[20px] 2xl:ml-[141px] mx-4 sm:mx-8 md:mx-12">
-              Get started with your printer
+          <div className="relative z-10 text-white  2xl:ml-[-825px] xl:ml-[-567px] 2xl:mt-[164px] xl:mt-[178px]  ">
+            <h1 className="text-4xl font-hp-simplified text-[44px] xl:text-[50px] 2xl:text-[56px] xl:ml-[32px] 2xl:ml-[157px] mx-4 sm:mx-8 md:mx-12">
+              Get started with your Printer
             </h1>
 
             <p className="mt-[35px] text-[24px] xl:text-[28px] 2xl:text-[32px] xl:ml-[317px] 2xl:ml-[500px] mx-4 sm:mx-8 md:mx-12">
-              Enter your printer name and model number For Printer Setup Installation
+              Enter your Printer name and model number for Printer Setup Installation
             </p>
 
             {/* Input Section */}
@@ -373,7 +373,7 @@ function Home() {
                 type="text"
                 value={searchTerm}
                 onChange={handleSearchChange}
-                placeholder="Enter your product name here."
+                placeholder="Enter your product name here.For example: 'OfficeJet 9010'"
                 className="px-4 py-2 w-full max-w-lg rounded-md text-gray-700 2xl:ml-[22px] xl:ml-[-19px]"
               />
               <button
@@ -416,7 +416,7 @@ function Home() {
               alt="Printer setup devices"
               width={403}
               height={196}
-              className="object-contain 2xl:ml-[893px] 2xl:mt-[-46px] xl:mt-[86px] xl:ml-[631px] 2xl:mt-[-43px] xl:mt-[-92px]"
+              className="object-contain 2xl:ml-[893px] 2xl:mt-[-46px] xl:mt-[-21px] xl:ml-[631px] 2xl:mt-[-43px] xl:mt-[-92px]"
             />
           </div>
 
