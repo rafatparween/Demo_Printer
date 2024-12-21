@@ -341,30 +341,30 @@ function Home() {
 
   return (
     <>
-      <NavbarSection/>
+      <NavbarSection />
       <div className="h-[530px] mt-[13px] ">
-      <section
-  className="relative flex flex-col justify-center items-center text-center py-12 h-[450px] bg-cover bg-center"
-  style={{
-    backgroundImage: "url('/topback.png')"
-  }}
->
-  {/* Overlay div for background color */}
-  {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
+        <section
+          className="relative flex flex-col justify-center items-center text-center py-12 h-[450px] bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/topback.png')"
+          }}
+        >
+          {/* Overlay div for background color */}
+          {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
 
-  {/* Content of the section */}
-  <div className="relative z-10">
-    {/* <h1 className="text-white">Your Content Here</h1> */}
-  </div>
+          {/* Content of the section */}
+          <div className="relative z-10">
+            {/* <h1 className="text-white">Your Content Here</h1> */}
+          </div>
 
           <div className=" inset-0 opacity-80"></div>
-          <div className="relative z-10 text-white 2xl:mt-[-10px] xl:mt-[-28px] 2xl:ml-[-825px] xl:ml-[-567px]  ">
-          <h1 className="text-4xl font-hp-simplified text-[44px] xl:text-[50px] 2xl:text-[56px] xl:ml-[20px] 2xl:ml-[141px] mx-4 sm:mx-8 md:mx-12">
+          <div className="relative z-10 text-white  2xl:ml-[-825px] xl:ml-[-567px] 2xl:mt-[164px]  ">
+            <h1 className="text-4xl font-hp-simplified text-[44px] xl:text-[50px] 2xl:text-[56px] xl:ml-[20px] 2xl:ml-[141px] mx-4 sm:mx-8 md:mx-12">
               Get started with your printer
             </h1>
 
             <p className="mt-[35px] text-[24px] xl:text-[28px] 2xl:text-[32px] xl:ml-[317px] 2xl:ml-[500px] mx-4 sm:mx-8 md:mx-12">
-              Enter your printer name and model number For Printer setup installation.
+              Enter your printer name and model number For Printer Setup Installation
             </p>
 
             {/* Input Section */}
@@ -396,28 +396,28 @@ function Home() {
                     onClick={() => handleModelClick(model)} // Set model on click
                     className="cursor-pointer p-2 hover:bg-[#007DBA] hover:text-white"
                   >
-                     <span className="font-bold text-black">HP</span>
-                     {model.substring(2)} {/* Display the rest of the model name */}
+                    <span className="font-bold text-black">HP</span>
+                    {model.substring(2)} {/* Display the rest of the model name */}
                   </li>
                 ))}
               </ul>
             )}
           </div>
           <div className='2xl:ml-[-826px] xl:ml-[-617px] text-white '>
-            <Popup/>
+            <Popup />
             <h1 className='underline 2xl:ml-[-455px] 2xl:mt-[25px] xl:ml-[-455px] xl:mt-[25px]'>My device is not listed</h1>
           </div>
 
 
 
           <div className="flex justify-end  ">
-            {/* <img
-              src="/printertwo.png"
+            <img
+              src="/setup.png"
               alt="Printer setup devices"
-              width={200}
+              width={403}
               height={196}
-              className="object-contain 2xl:ml-[893px] 2xl:mt-[60px] xl:mt-[86px] xl:ml-[631px]"
-            /> */}
+              className="object-contain 2xl:ml-[893px] 2xl:mt-[-46px] xl:mt-[86px] xl:ml-[631px] mt-[-43px]"
+            />
           </div>
 
         </section>
@@ -444,8 +444,8 @@ function Home() {
       <div className='mt-[350px]'>
 
       </div>
-      <FooterSection/>
-      <JivoChat/>
+      <FooterSection />
+      <JivoChat />
 
     </>
   );

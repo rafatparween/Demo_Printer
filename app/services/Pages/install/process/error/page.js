@@ -90,8 +90,8 @@ export default function ErrorPage() {
             />
           </div>
          
-          <p className="font-bold text-center text-xl mb-2">Please contact support through live chat for printer setup installation</p>
-          <p className="text-center text-[#1C8DCEED] font-bold text-xl mb-[96px]">Using Printer Setup Support Chat</p>
+          <p className="font-bold text-center text-xl mb-2">Need help setting up or installing your printer? Our dedicated team is here to make it easy for you! </p>
+          <p className="text-center text-[#1C8DCEED] font-bold text-xl mb-[96px]">Simply connect with us through our Live Chat for instant assistance.</p>
         </div>
         <div className="relative mt-8">
           

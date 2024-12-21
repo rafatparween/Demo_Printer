@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="flex flex-col items-center ">
       {/* Navigation Bar */}
-      <nav className="bg-[#1C8DCEED] text-white w-full mt-[-30px] ">
+      <nav className="bg-[#1C8DCEED] text-white w-full">
         <div className="max-w-7xl mx-auto px-4">
           {/* <div className="flex justify-center h-12 items-center space-x-8">
             <Link href="offline" className="">Printer Offline</Link>
