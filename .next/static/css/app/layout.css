@@ -677,6 +677,10 @@ video {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -684,10 +688,6 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -890,6 +890,9 @@ video {
 .mt-\[-3px\] {
   margin-top: -3px;
 }
+.mt-\[-43px\] {
+  margin-top: -43px;
+}
 .mt-\[-50px\] {
   margin-top: -50px;
 }
@@ -949,24 +952,6 @@ video {
 }
 .mt-\[89px\] {
   margin-top: 89px;
-}
-.mt-\[164px\] {
-  margin-top: 164px;
-}
-.mt-\[-92px\] {
-  margin-top: -92px;
-}
-.mt-\[-53px\] {
-  margin-top: -53px;
-}
-.mt-\[-60px\] {
-  margin-top: -60px;
-}
-.mt-\[-18px\] {
-  margin-top: -18px;
-}
-.mt-\[-43px\] {
-  margin-top: -43px;
 }
 .block {
   display: block;
@@ -1187,6 +1172,9 @@ video {
 .w-\[130px\] {
   width: 130px;
 }
+.w-\[150px\] {
+  width: 150px;
+}
 .w-\[162px\] {
   width: 162px;
 }
@@ -1265,6 +1253,9 @@ video {
 .w-\[750px\] {
   width: 750px;
 }
+.w-\[800px\] {
+  width: 800px;
+}
 .w-\[832px\] {
   width: 832px;
 }
@@ -1282,12 +1273,6 @@ video {
 }
 .w-max {
   width: max-content;
-}
-.w-\[150px\] {
-  width: 150px;
-}
-.w-\[800px\] {
-  width: 800px;
 }
 .min-w-full {
   min-width: 100%;
@@ -2831,10 +2816,6 @@ body {
     margin-top: -190px;
   }
 
-  .xl\:mt-\[-28px\] {
-    margin-top: -28px;
-  }
-
   .xl\:mt-\[116px\] {
     margin-top: 116px;
   }
@@ -2853,6 +2834,14 @@ body {
 
   .xl\:mt-\[86px\] {
     margin-top: 86px;
+  }
+
+  .xl\:mt-\[137px\] {
+    margin-top: 137px;
+  }
+
+  .xl\:mt-\[-92px\] {
+    margin-top: -92px;
   }
 
   .xl\:w-\[1414px\] {
@@ -3051,16 +3040,16 @@ body {
     margin-right: -1041px;
   }
 
-  .\32xl\:mt-\[-10px\] {
-    margin-top: -10px;
-  }
-
   .\32xl\:mt-\[-110px\] {
     margin-top: -110px;
   }
 
   .\32xl\:mt-\[-283px\] {
     margin-top: -283px;
+  }
+
+  .\32xl\:mt-\[-46px\] {
+    margin-top: -46px;
   }
 
   .\32xl\:mt-\[-62px\] {
@@ -3073,6 +3062,10 @@ body {
 
   .\32xl\:mt-\[142px\] {
     margin-top: 142px;
+  }
+
+  .\32xl\:mt-\[164px\] {
+    margin-top: 164px;
   }
 
   .\32xl\:mt-\[25px\] {
@@ -3091,20 +3084,8 @@ body {
     margin-top: 9px;
   }
 
-  .\32xl\:mt-\[164px\] {
-    margin-top: 164px;
-  }
-
-  .\32xl\:mt-\[393px\] {
-    margin-top: 393px;
-  }
-
-  .\32xl\:mt-\[209px\] {
-    margin-top: 209px;
-  }
-
-  .\32xl\:mt-\[-46px\] {
-    margin-top: -46px;
+  .\32xl\:mt-\[-43px\] {
+    margin-top: -43px;
   }
 
   .\32xl\:w-\[1431px\] {
