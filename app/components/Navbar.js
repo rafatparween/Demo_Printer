@@ -7,7 +7,7 @@ const Chatlink = () => {
   const [hover, setHover] = useState(false);
 
   return (
-    <header className="bg-white p-4 text-right h-18 mt-5 mx-auto mr-[80px]">
+    <header className="bg-white p-4 text-right h-18 mt-[-3px] mx-auto mr-[80px]">
       <div
         className="chat-now text-2xl text-[#1c85c1] cursor-pointer relative inline-block"
         onMouseEnter={() => setHover(true)}
@@ -24,7 +24,7 @@ const Chatlink = () => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-white h-[91px] mt-[-21px]">
+    <nav className="bg-white h-[91px]">
       <div className="flex gap-5 items-center py-3 justify-between">
         <ul className="ml-[80px] flex gap-8 text-[#1C8DCE] text-[24px] xl:ml-[236px] 2xl:ml-[179px]">
           <Link legacyBehavior href="/" passHref>
@@ -47,8 +47,20 @@ const Navbar = () => {
           </Link>
           <Link legacyBehavior href="/scanner" passHref>
             <a className="hover:text-[#3730a3] p-2 rounded">Scanner Setup</a>
-          </Link> */}
-          {/* <Link legacyBehavior href="/privacypolicy" passHref>
+          </Link> 
+          <Link legacyBehavior href="/privacypolicy" passHref>
+            <a className="hover:text-[#3730a3] p-2 rounded">Privacy Policy</a>
+          </Link>
+          <Link legacyBehavior href="/privacypolicy" passHref>
+            <a className="hover:text-[#3730a3] p-2 rounded">Privacy Policy</a>
+          </Link>
+          <Link legacyBehavior href="/privacypolicy" passHref>
+            <a className="hover:text-[#3730a3] p-2 rounded">Privacy Policy</a>
+          </Link>
+          <Link legacyBehavior href="/privacypolicy" passHref>
+            <a className="hover:text-[#3730a3] p-2 rounded">Privacy Policy</a>
+          </Link>
+          <Link legacyBehavior href="/privacypolicy" passHref>
             <a className="hover:text-[#3730a3] p-2 rounded">Privacy Policy</a>
           </Link> */}
         </ul>

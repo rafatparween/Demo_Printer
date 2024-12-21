@@ -22,6 +22,7 @@ import Helppage from "../components/Helppage";
 import ChatSection from "../components/ChatSection";
 import FooterSection from "../components/FooterSection";
 
+
 // import './globals.css'
 function Home() {
   return (

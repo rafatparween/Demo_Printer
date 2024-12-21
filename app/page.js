@@ -18,6 +18,7 @@ import Chatlink from "./services/content/Chatlink";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 
+
 function Home() {
   return (
     <>
@@ -38,6 +39,8 @@ function Home() {
       <Solutions/>
       <PrinterGuide/>
       {/* <Customer/> */}
+     
+      
       <FooterSection/>
 
 
