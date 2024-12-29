@@ -332,7 +332,7 @@ function Home() {
 
   const handleSearchClick = () => {
     if (searchTerm) {
-      const searchPath = searchTerm.replace(/\s+/g, '-').replace(/\//g, '-');
+      const searchPath = searchTerm.replace(/\s+/g, '-').replace(/\//g, '-')
       router.push(`./printer/install?model=${encodeURIComponent(searchPath)}`); // Navigate to the install page
     } else {
       alert("Please select or enter a model before searching."); // Alert if the input is empty
