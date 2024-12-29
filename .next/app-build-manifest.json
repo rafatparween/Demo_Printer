@@ -16,11 +16,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/services/Pages/page.js"
-    ],
-    "/services/Pages/install/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/Pages/install/page.js"
     ]
   }
 }
