@@ -24,18 +24,18 @@ const Chatlink = () => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-white h-[91px]">
+    <nav className="bg-white h-[40px]">
       <div className="flex gap-5 items-center py-3 justify-between">
         <ul className="ml-[80px] flex gap-8 text-[#1C8DCE] text-[24px] xl:ml-[236px] 2xl:ml-[179px]">
           <Link legacyBehavior href="/" passHref>
             {/* <a className="hover:text-[#3730a3] p-2 rounded">Home</a> */}
             <div className="flex items-center mr-4 xl:ml-[-60px] 2xl:ml-[2px]">
-          {/* <Image
+          <Image
             src="/hplogo.png" // Replace with the correct path to your logo
             alt="HP Logo"
             width={53}
             height={53}
-          /> */}
+          />
         </div>
             
           </Link>

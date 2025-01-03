@@ -439,6 +439,14 @@ function Home() {
           <h1 className="text-lg text-[#007DBA] underline">Easily install Printer and drivers on all your computers</h1>
         </div>
 
+        <div className="flex items-center 2xl:ml-[193px] 2xl:mt-[59px] xl:ml-[130px] xl:mt-[63px]">
+          <Image src="/unitedlogo.png" alt="United States"
+            height={50}
+            width={50}
+            className="w-6 h-6 mr-2" />
+          <h1 className="text-lg text-[#007DBA] underline">United States</h1>
+        </div>
+
 
       </div>
       <div className='mt-[350px]'>
