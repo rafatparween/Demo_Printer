@@ -6,7 +6,7 @@ export default function Header() {
       {/* Navigation Bar */}
       <nav className="bg-[#1C8DCEED] text-white w-full">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex justify-center h-12 items-center space-x-16 2xl:ml-[-261px] xl:ml-[61px]">
+          <div className="flex justify-center h-12 items-center space-x-16 2xl:ml-[-285px] xl:ml-[67px]">
             <Link href="../services/Pages" className="">Printer Offline</Link>
             <Link href="../services/Pages" className="">Printer Setup</Link>
             <Link href="../services/Pages" className="">Scanner Setup</Link>
@@ -21,5 +21,6 @@ export default function Header() {
     </div>
   );
 };
+
 
 

@@ -155,6 +155,7 @@ div {
     .text-content {
         font-size: 1.8rem;
         width: 50%; /* Ensure the text content has adequate space */
+        margin-bottom: 11px;
     }
 
     .printer-image {

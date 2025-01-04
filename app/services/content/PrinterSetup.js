@@ -15,7 +15,7 @@ const PrinterSetup = () => {
   return (
     <>
       <div className="printer-setup">
-        <div className="text-content ">
+        <div className="text-content xl:mb-[11px] ">
           <h1>123 EASY PRINTER SETUP INSTALLATION</h1>
           <ul>
             <li>Make sure your printer is powered on</li>
