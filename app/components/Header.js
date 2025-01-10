@@ -7,13 +7,13 @@ export default function Header() {
       <nav className="bg-[#1C8DCEED] text-white w-full">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-center h-12 items-center space-x-16 2xl:ml-[-285px] xl:ml-[67px]">
-            <Link href="../services/Pages" className="">Printer Offline</Link>
-            <Link href="../services/Pages" className="">Printer Setup</Link>
-            <Link href="../services/Pages" className="">Scanner Setup</Link>
-            <Link href="../services/Pages" className="">Support Home</Link>
-            <Link href="../services/Pages" className="">Ink Cartridges Issue</Link>
-            <Link href="../services/Pages" className="">Diagnostics</Link>
-            <Link href="../services/Pages" className="">Business Support</Link>
+            <Link href="../customsoftware/Pages" className="">Printer Offline</Link>
+            <Link href="../customsoftware/Pages" className="">Printer Setup</Link>
+            <Link href="../customsoftware/Pages" className="">Scanner Setup</Link>
+            <Link href="../customsoftware/Pages" className="">Support Home</Link>
+            <Link href="../customsoftware/Pages" className="">Ink Cartridges Issue</Link>
+            <Link href="../customsoftware/Pages" className="">Diagnostics</Link>
+            <Link href="../customsoftware/Pages" className="">Business Support</Link>
         </div>
         </div>
       </nav>

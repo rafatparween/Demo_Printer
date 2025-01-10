@@ -39,7 +39,7 @@ const FooterSection = () => {
         <div>
           <ul>
             <li className="mb-2 text-white font-semibold">Support</li>
-            <Link legacyBehavior href="/policy">
+            <Link legacyBehavior href="/customsoftware/Pages">
               <a className="mb-2 hover:text-gray-400 cursor-pointer">Privacy Policy</a>
             </Link> 
             <li className="mb-2 hover:text-gray-400 cursor-pointer">Support & troubleshooting</li>
@@ -111,11 +111,11 @@ const FooterSection = () => {
       </div> */}
       <div className="border-t border-gray-600 py-4 text-center">
         <p className="text-xs text-gray-400">
-        © Copyright, All Rights Reserved by hewlett-printer-solution
+        © Copyright, All Rights Reserved by micro-sonic.online
         </p>
       </div>
     </footer>
   );
 };
 
-export default FooterSection;
+export default FooterSection

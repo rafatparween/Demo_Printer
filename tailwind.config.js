@@ -7,47 +7,58 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: {
-        progress: "progress 1.5s linear infinite",
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      colors: {
+        customGreen: '#0ac17c',
+        customBlue: '#3fa4d7',
       },
       keyframes: {
-        progress: {
-          "0%": { transform: "translateX(-100%)" },
-          "100%": { transform: "translateX(100%)" },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
         },
       },
-      maxWidth: {
-        '101rem': '101rem',  // Custom max-width of 101rem
+      animation: {
+        float: 'float 4s ease-in-out infinite',
       },
       fontFamily: {
-        'hp-simplified': ['HPSimplifiedLight123', 'sans-serif'],
+        dancing: ['"Dancing Script"', 'cursive'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: {
-        hp: ['HPSimplifiedLight123', 'sans-serif'],
-      },
       colors: {
-        'custom-blue': '#0096D6',  // Add the custom border color
+        customGreen: '#0ac17c',
+        customBlue: '#3fa4d7',
       },
-      borderWidth: {
-        '2': '2px',  // Add the custom border width
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
       },
-      screens: {
-        'sm': '360px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1536px',
+      animation: {
+        float: 'float 4s ease-in-out infinite',
       },
+      fontFamily: {
+        dancing: ['"Dancing Script"', 'cursive'],
+      },
+    },
+    keyframes: {
+      progress: {
+        '0%': { transform: 'translateX(-100%)' },
+        '100%': { transform: 'translateX(100%)' },
+      },
+    },
+    animation: {
+      progress: 'progress 2s linear infinite', // Animation duration and infinite looping
     },
   },
   plugins: [],
 };
-
-
-
-
